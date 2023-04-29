@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid red;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    text-decoration:aqua;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
